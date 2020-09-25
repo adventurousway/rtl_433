@@ -12,7 +12,9 @@ RUN apk add --no-cache \
     git \
     librtlsdr-dev
 
-ENV RTL_433_TAG HEAD
+ARG RTL_433_TAG=master
+
+ENV RTL_433_TAG=$RTL_433_TAG
 
 RUN git clone https://github.com/merbanan/rtl_433.git /tmp/rtl_433 \
   && cd /tmp/rtl_433 \
