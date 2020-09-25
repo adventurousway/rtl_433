@@ -10,8 +10,8 @@ For instance,  `adventurousway/rtl_433:20.02` points to the [20.02](https://gith
 
 There are two additional canonical tags available:
 
-* `latest` points to the most recent release tag of `rtl_433`
-* `head` points to `HEAD` of the `rtl_433` master branch
+* `stable` points to the most recent release tag of `rtl_433`
+* `latest` points to `HEAD` of the `rtl_433` master branch
 
 ## Running
 
